@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="Matthew_Freestone.asm">
+    <MASM Include="main.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

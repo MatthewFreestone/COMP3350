@@ -1,8 +1,9 @@
 ;Matthew Freestone
 ;maf0083
 ;Matthew_Freestone.asm
+; Last Edited 25 Feb 2022
 ; I used the template provided by Dr. Li
-; Melvin Moreno gave me advice on using registers to keep track of indexes  
+; Melvin Moreno gave me advice on using registers EBX and EDX to keep track of indexes  
 
 ; This program add and subtracts 32-bit Integers
 
@@ -13,7 +14,7 @@ ExitProcess PROTO, dwExitCode:DWORD
 
 
 .data
-    shift DWORD 7
+    shift DWORD 2
     input BYTE 1,2,3,4,5,6,7,8 
     output BYTE lengthof input dup(?)	
 .code
